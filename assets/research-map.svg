@@ -1,0 +1,103 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1200" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0C1224"/>
+      <stop offset="100%" stop-color="#152345"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7DD3FC"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#BEF264"/>
+      <stop offset="100%" stop-color="#84CC16"/>
+    </linearGradient>
+    <linearGradient id="bridge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#84CC16"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="680" rx="28" fill="url(#bg2)"/>
+
+  <text x="600" y="70" text-anchor="middle" fill="white" font-size="32" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    Research Map
+  </text>
+  <text x="600" y="106" text-anchor="middle" fill="#C7D2FE" font-size="16" font-family="Arial, Helvetica, sans-serif">
+    Two research directions connected by geometry, optimization, and structured reasoning
+  </text>
+
+  <!-- left block -->
+  <g filter="url(#shadow)">
+    <rect x="82" y="150" width="448" height="360" rx="26" fill="#0F1B34" stroke="#38BDF8" stroke-width="2"/>
+    <text x="120" y="198" fill="url(#cyan)" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+      Intelligent Lithography
+    </text>
+    <text x="120" y="230" fill="#D6E4FF" font-size="16" font-family="Arial, Helvetica, sans-serif">
+      Geometry-aware optimization for manufacturable mask design
+    </text>
+
+    <rect x="120" y="272" width="170" height="58" rx="14" fill="#142748" stroke="#7DD3FC" stroke-width="2"/>
+    <text x="205" y="307" text-anchor="middle" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="600">OPC / ILT</text>
+
+    <rect x="322" y="272" width="170" height="58" rx="14" fill="#142748" stroke="#7DD3FC" stroke-width="2"/>
+    <text x="407" y="307" text-anchor="middle" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="600">Mask Representation</text>
+
+    <rect x="120" y="356" width="170" height="58" rx="14" fill="#142748" stroke="#7DD3FC" stroke-width="2"/>
+    <text x="205" y="391" text-anchor="middle" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="600">Differentiable Rendering</text>
+
+    <rect x="322" y="356" width="170" height="58" rx="14" fill="#142748" stroke="#7DD3FC" stroke-width="2"/>
+    <text x="407" y="391" text-anchor="middle" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="600">Manufacturability</text>
+
+    <rect x="120" y="440" width="372" height="44" rx="12" fill="#12233F" stroke="#5CC8FF" stroke-width="1.8"/>
+    <text x="306" y="468" text-anchor="middle" fill="#E6F4FF" font-size="16" font-family="Arial, Helvetica, sans-serif">Shot Count · MRC · Robustness · Practical Optimization</text>
+  </g>
+
+  <!-- right block -->
+  <g filter="url(#shadow)">
+    <rect x="670" y="150" width="448" height="360" rx="26" fill="#111F34" stroke="#84CC16" stroke-width="2"/>
+    <text x="708" y="198" fill="url(#green)" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+      Multimodal Learning
+    </text>
+    <text x="708" y="230" fill="#E8F4D7" font-size="16" font-family="Arial, Helvetica, sans-serif">
+      Structured perception and reasoning across vision and language
+    </text>
+
+    <rect x="708" y="272" width="170" height="58" rx="14" fill="#1A2A16" stroke="#A3E635" stroke-width="2"/>
+    <text x="793" y="307" text-anchor="middle" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="600">VLM / VQA</text>
+
+    <rect x="910" y="272" width="170" height="58" rx="14" fill="#1A2A16" stroke="#A3E635" stroke-width="2"/>
+    <text x="995" y="307" text-anchor="middle" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="600">Scene Graphs</text>
+
+    <rect x="708" y="356" width="170" height="58" rx="14" fill="#1A2A16" stroke="#A3E635" stroke-width="2"/>
+    <text x="793" y="391" text-anchor="middle" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="600">Structured Reasoning</text>
+
+    <rect x="910" y="356" width="170" height="58" rx="14" fill="#1A2A16" stroke="#A3E635" stroke-width="2"/>
+    <text x="995" y="391" text-anchor="middle" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="600">Controllable Generation</text>
+
+    <rect x="708" y="440" width="372" height="44" rx="12" fill="#192916" stroke="#A3E635" stroke-width="1.8"/>
+    <text x="894" y="468" text-anchor="middle" fill="#F3FCE8" font-size="16" font-family="Arial, Helvetica, sans-serif">Perception · Reasoning · Layout · Semantic Control</text>
+  </g>
+
+  <!-- bridge -->
+  <g filter="url(#shadow)">
+    <rect x="432" y="540" width="336" height="86" rx="22" fill="#0E1830" stroke="url(#bridge)" stroke-width="2.5"/>
+    <text x="600" y="573" text-anchor="middle" fill="white" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+      Shared Core
+    </text>
+    <text x="600" y="603" text-anchor="middle" fill="#D9E7FF" font-size="16" font-family="Arial, Helvetica, sans-serif">
+      Geometry · Optimization · Differentiability
+    </text>
+  </g>
+
+  <path d="M530 330C590 330 560 583 560 583" stroke="url(#bridge)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M670 330C610 330 640 583 640 583" stroke="url(#bridge)" stroke-width="4" stroke-linecap="round"/>
+
+  <circle cx="530" cy="330" r="7" fill="#38BDF8"/>
+  <circle cx="670" cy="330" r="7" fill="#84CC16"/>
+  <circle cx="560" cy="583" r="7" fill="#38BDF8"/>
+  <circle cx="640" cy="583" r="7" fill="#84CC16"/>
+</svg>
